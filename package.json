@@ -2,6 +2,7 @@
   "name": "generate-bill",
   "version": "0.1.0",
   "homepage": "https://Manish7113.github.io/generate-bill",
+
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -17,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
